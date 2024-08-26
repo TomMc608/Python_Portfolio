@@ -54,7 +54,7 @@ X_val_np, y_val_np = dataset_to_numpy_array(val_dataset)
 X_test_np, y_test_np = dataset_to_numpy_array(test_dataset)
 
 # Define verbose variable
-verbose = True
+verbose = False
 
 # Print the head and end of each dataset
 if verbose:
